@@ -1,0 +1,22 @@
+nav {
+    color: #fff;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px pink,
+      0 0 82px pink,
+      0 0 92px pink,
+      0 0 102px pink,
+      0 0 151px pink;
+    text-align: center;
+    margin: 30px;
+}
+
+.nav-home {
+  font-size: 20rem;
+}
+
+
+
+

@@ -5,8 +5,24 @@ name = "pypi"
 
 [packages]
 django = "*"
+djangorestframework = "*"
+django-cors-headers = "*"
+pyjwt = "*"
+psycopg2-binary = "*"
+psycopg2 = "*"
+channels = "*"
+channels-redis = "*"
+gunicorn = "*"
+whitenoise = "*"
+dj-database-url = "*"
+django-on-heroku = "*"
+coverage = "*"
 
 [dev-packages]
+pytest = "*"
+pytest-cov = "*"
+pytest-django = "*"
+django-webtest = "*"
 
 [requires]
 python_version = "3.10"

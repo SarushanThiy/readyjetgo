@@ -1,0 +1,15 @@
+version: '3'
+services:
+  db:
+    image: postgres:latest
+    volumes: 
+      - "dbdata:/var/lib/postgresql/data"
+      - "./db:/docker-entrypoint-initdb.d/:ro"
+    environment: 
+      - POSTGRES_DB=travelapp
+      - POSTGRES_USER=digital_ninja
+      - POSTGRES_PASSWORD=ninja_pass
+    ports:
+      - "127.0.0.1:5000:5432"
+volumes:
+  dbdata:

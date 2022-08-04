@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Cinzel+Decorative:wght@900&family=Dancing+Script:wght@700&family=Grape+Nuts&family=Indie+Flower&family=Lobster&family=Poppins:wght@100&family=Russo+One&family=Shadows+Into+Light&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Gloria+Hallelujah&family=Permanent+Marker&family=Raleway:wght@100&family=Work+Sans:wght@100&display=swap");
+
+li:first-child .text {
+    background-color: #ff7096;
+}
+
+li:nth-child(2) .text {
+    background-color: #ffd166;
+}
+
+li:nth-child(3) .text {
+    background-color: #06d6a0;
+}
+
+li:nth-child(4) .text {
+    background-color: #118ab2;
+}
+
+li:nth-child(5) .text {
+    background-color: #cae9ff;
+}
+
+li:nth-child(6) .text {
+    background-color: #ff9f1c;
+}
+
+li:nth-child(7) .text {
+    background-color: #ffbf69;
+}
+
+li:nth-child(8) .text {
+    background-color: #ffffff;
+}
+
+li:nth-child(9) .text {
+    background-color: #cbf3f0;
+}
+
+li:nth-child(10) .text {
+    background-color: #25ced1;
+}
+
+li:nth-child(11) .text {
+    background-color: #9c89b8;
+}
+
+li:nth-child(12) .text {
+    background-color: #e8c2ca;
+}
+
+li:first-child {
+    transform: rotate(0deg) skewY(-60deg);
+} 
+
+li:nth-child(2) {
+    transform: rotate(30deg) skewY(-60deg);
+}
+
+li:nth-child(3) {
+    transform: rotate(60deg) skewY(-60deg);
+}
+
+li:nth-child(4) {
+    transform: rotate(90deg) skewY(-60deg);
+}
+
+li:nth-child(5) {
+    transform: rotate(120deg) skewY(-60deg);
+}
+
+li:nth-child(6) {
+    transform: rotate(150deg) skewY(-60deg);
+}
+
+li:nth-child(7) {
+    transform: rotate(180deg) skewY(-60deg);
+}
+
+li:nth-child(8) {
+    transform: rotate(210deg) skewY(-60deg);
+}
+
+li:nth-child(9) {
+    transform: rotate(240deg) skewY(-60deg);
+}
+
+li:nth-child(10) {
+    transform: rotate(270deg) skewY(-60deg);
+}
+
+li:nth-child(11) {
+    transform: rotate(300deg) skewY(-60deg);
+}
+
+li:nth-child(12) {
+    transform: rotate(330deg) skewY(-60deg);
+} 
+
+.circle {
+    width: 40em;
+    height:40em;
+    border: 1px solid black;
+    position: relative;
+    padding: 0;
+    margin: 1em auto;
+    border-radius: 50%;
+    list-style: none;
+    overflow: hidden;
+    margin-top: -722px;
+} 
+
+li {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 50%;
+    transform-origin: 0% 100%;
+}
+
+ .text {
+    position: absolute;
+    left: -100%;
+    width: 200%;
+    height: 200%;
+    text-align: center;
+    display: block;
+    transform: skewY(60deg) rotate(12.5deg);
+    padding-top: 20px; 
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px; 
+ } 
+
+ #tester {
+    background-color: #2a6fd1;
+    width: 25%;
+    padding: 70px;
+    position: relative;
+    left: 40px;
+    top: 150px;
+    border-radius: 23px 23px 23px 23px;
+    font-size: 2rem;
+    font-family: 'Poppins';
+    text-align: center;
+    box-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 82px #053271,
+    0 0 92px #053271,
+    0 0 102px #588fdc,
+    0 0 151px #588fdc;
+    color: #fff;
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 82px #053271,
+    0 0 92px #053271,
+    0 0 102px #588fdc,
+    0 0 151px #588fdc;
+    
+    }
+
+#tester1 {
+    background-color: #2a6fd1;
+    width: 25%;
+    padding: 60px;
+    position: relative;
+    left: 1080px;
+    top: -225px;
+    border-radius: 23px 23px 23px 23px;
+    font-size: 2rem;
+    font-family: 'Poppins';
+    text-align: center;
+    box-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 82px #053271,
+    0 0 92px #053271,
+    0 0 102px #053271,
+    0 0 151px #053271;
+    color: #fff;
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 82px #053271,
+    0 0 92px #053271,
+    0 0 102px #053271,
+    0 0 151px #053271;
+}
+
+
+  .arrow {
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 50px solid black;
+    position: absolute;
+    left: 49%;
+    top: 310px;
+    z-index: 1;
+}
+
+.spin-button {
+    position: absolute;
+    left: 40%;
+    width: 120px;
+    height: 40px;
+    background-color: blue;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-left: 90px;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    font-size: 18px;
+}
+
+.start-rotate {
+    animation: start-rotate 1s linear infinite; 
+    /* transition-duration: 10s;
+    transition-timing-function: linear;
+    transition-delay: 5s; */
+}
+
+@keyframes start-rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.stop-rotate {
+    animation-play-state: paused;
+} 
+
+.spinnerTitle {
+    text-align: center;
+    font-size: 9rem;
+    
+    color: #333;
+    letter-spacing: 8px;
+    font-family: 'Dancing Script';
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: 5;
+}

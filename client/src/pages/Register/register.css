@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Cinzel+Decorative:wght@900&family=Dancing+Script:wght@700&family=Grape+Nuts&family=Indie+Flower&family=Lobster&family=Poppins:wght@100&family=Quicksand&display=swap');
+
+*,
+*::before,
+*::after{
+  margin:0;
+  padding:0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+
+}
+
+body {
+  box-sizing:border-box;
+  background-color: #D28A9F;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 100 60'%3E%3Cg %3E%3Crect fill='%23D28A9F' width='11' height='11'/%3E%3Crect fill='%23d48b9f' x='10' width='11' height='11'/%3E%3Crect fill='%23d58d9e' y='10' width='11' height='11'/%3E%3Crect fill='%23d78e9e' x='20' width='11' height='11'/%3E%3Crect fill='%23d98f9d' x='10' y='10' width='11' height='11'/%3E%3Crect fill='%23da909d' y='20' width='11' height='11'/%3E%3Crect fill='%23dc929c' x='30' width='11' height='11'/%3E%3Crect fill='%23dd939c' x='20' y='10' width='11' height='11'/%3E%3Crect fill='%23de959c' x='10' y='20' width='11' height='11'/%3E%3Crect fill='%23e0969b' y='30' width='11' height='11'/%3E%3Crect fill='%23e1989b' x='40' width='11' height='11'/%3E%3Crect fill='%23e2999b' x='30' y='10' width='11' height='11'/%3E%3Crect fill='%23e39b9a' x='20' y='20' width='11' height='11'/%3E%3Crect fill='%23e59c9a' x='10' y='30' width='11' height='11'/%3E%3Crect fill='%23e69e9a' y='40' width='11' height='11'/%3E%3Crect fill='%23e79f9a' x='50' width='11' height='11'/%3E%3Crect fill='%23e8a199' x='40' y='10' width='11' height='11'/%3E%3Crect fill='%23e9a299' x='30' y='20' width='11' height='11'/%3E%3Crect fill='%23e9a499' x='20' y='30' width='11' height='11'/%3E%3Crect fill='%23eaa699' x='10' y='40' width='11' height='11'/%3E%3Crect fill='%23eba799' y='50' width='11' height='11'/%3E%3Crect fill='%23eca999' x='60' width='11' height='11'/%3E%3Crect fill='%23ecab99' x='50' y='10' width='11' height='11'/%3E%3Crect fill='%23edac99' x='40' y='20' width='11' height='11'/%3E%3Crect fill='%23eeae99' x='30' y='30' width='11' height='11'/%3E%3Crect fill='%23eeb099' x='20' y='40' width='11' height='11'/%3E%3Crect fill='%23efb299' x='10' y='50' width='11' height='11'/%3E%3Crect fill='%23efb39a' x='70' width='11' height='11'/%3E%3Crect fill='%23f0b59a' x='60' y='10' width='11' height='11'/%3E%3Crect fill='%23f0b79a' x='50' y='20' width='11' height='11'/%3E%3Crect fill='%23f0b99a' x='40' y='30' width='11' height='11'/%3E%3Crect fill='%23f1bb9b' x='30' y='40' width='11' height='11'/%3E%3Crect fill='%23f1bc9b' x='20' y='50' width='11' height='11'/%3E%3Crect fill='%23f1be9c' x='80' width='11' height='11'/%3E%3Crect fill='%23f1c09c' x='70' y='10' width='11' height='11'/%3E%3Crect fill='%23f2c29d' x='60' y='20' width='11' height='11'/%3E%3Crect fill='%23f2c49e' x='50' y='30' width='11' height='11'/%3E%3Crect fill='%23f2c69e' x='40' y='40' width='11' height='11'/%3E%3Crect fill='%23f2c79f' x='30' y='50' width='11' height='11'/%3E%3Crect fill='%23f2c9a0' x='90' width='11' height='11'/%3E%3Crect fill='%23f2cba1' x='80' y='10' width='11' height='11'/%3E%3Crect fill='%23f2cda2' x='70' y='20' width='11' height='11'/%3E%3Crect fill='%23f2cfa2' x='60' y='30' width='11' height='11'/%3E%3Crect fill='%23f2d1a3' x='50' y='40' width='11' height='11'/%3E%3Crect fill='%23f2d2a5' x='40' y='50' width='11' height='11'/%3E%3Crect fill='%23f2d4a6' x='90' y='10' width='11' height='11'/%3E%3Crect fill='%23f1d6a7' x='80' y='20' width='11' height='11'/%3E%3Crect fill='%23f1d8a8' x='70' y='30' width='11' height='11'/%3E%3Crect fill='%23f1daa9' x='60' y='40' width='11' height='11'/%3E%3Crect fill='%23f1dcab' x='50' y='50' width='11' height='11'/%3E%3Crect fill='%23f1deac' x='90' y='20' width='11' height='11'/%3E%3Crect fill='%23f0dfae' x='80' y='30' width='11' height='11'/%3E%3Crect fill='%23f0e1af' x='70' y='40' width='11' height='11'/%3E%3Crect fill='%23f0e3b1' x='60' y='50' width='11' height='11'/%3E%3Crect fill='%23f0e5b2' x='90' y='30' width='11' height='11'/%3E%3Crect fill='%23efe7b4' x='80' y='40' width='11' height='11'/%3E%3Crect fill='%23efe9b6' x='70' y='50' width='11' height='11'/%3E%3Crect fill='%23efeab7' x='90' y='40' width='11' height='11'/%3E%3Crect fill='%23eeecb9' x='80' y='50' width='11' height='11'/%3E%3Crect fill='%23EEB' x='90' y='50' width='11' height='11'/%3E%3C/g%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;
+
+}
+
+.formdiv {
+  background-color: #beeefb;
+  height: 50vh;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15rem auto;
+  position: relative;
+  border-radius: 23px ;
+}
+
+.box {
+  background-color: #f1fdcd;
+  width:50%;
+  height:100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  
+}
+
+.box::after,
+.box::before {
+  content: "";
+  position: absolute;
+  width:100%;
+  height:100%;
+  background-color: #f1fdcd;
+  z-index: -200;
+    
+  }
+
+
+.box::before{
+    top: 3rem;
+    border-radius:23px;
+  }
+
+.box::after {
+    bottom: 3rem;
+    border-radius: 23px;
+  }
+
+.box2 {
+  background-color: #1d58ab;
+  width: 50%;
+  margin-left: 40%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+
+  border-radius: 0 23px 23px 0;
+}
+
+.registerForm {
+  color: #1b1b1b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 0rem 4rem;
+  padding-right: 55%;
+
+  z-index: 200;
+}
+
+#password{
+  background-color: #fff;
+  border: none;
+  padding: 1rem 2rem;
+  border-bottom: 2px solid #053271;
+  margin: 0.5rem 0;
+  width: 100%;
+  font-family: 'Poppins';
+  font-size: 1.5rem;
+}
+
+#username{
+  background-color: #fff;
+  border: none;
+  border-bottom: 2px solid #053271;
+  padding: 1rem 2rem;
+  margin: 0.5rem 0;
+  width: 100%;
+  font-family: 'Poppins';
+  font-size: 1.5rem;
+}
+
+#confirm_password{
+
+  background-color: #fff;
+  border: none;
+  border-bottom: 2px solid #053271;
+  padding: 1rem 2rem;
+  margin: 0.5rem 0;
+  width: 100%;
+  font-family: 'Poppins';
+  font-size: 1.5rem;
+}
+
+input {
+  font-family: 'Poppins';
+}
+
+#password:focus{
+  outline: none;
+  border: none;
+  border: 2px solid #053271;
+}
+
+#username:focus{
+  outline: none;
+  border: none;
+  border: 2px solid #053271;
+}
+
+#signupButton{
+  border-radius: 3px;
+  padding: 1rem 3.5rem;
+  margin-top: 1rem;
+  border: 1px solid black;
+  background-color: black;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+  letter-spacing: 1px;
+
+  box-shadow: 0 7px #999;
+}
+
+#signupButton:hover {
+  background-color: #1b1b1b;
+}
+
+#signupButton:active {
+  background-color: black;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#signupButton:focus {
+  outline: none;
+}
+
+#title {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+
+.return-to-login {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.4rem;
+  margin: 1rem 0 ;
+  padding:1rem;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  padding-top: 30%;
+  font-size: 3rem;
+  font-family: 'Quicksand';
+  color: #fff;
+  text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 42px rgb(220, 156, 28),
+      0 0 82px rgb(220, 156, 28),
+      0 0 102px rgb(220, 156, 28),
+      0 0 151px rgb(220, 156, 28);
+
+}
+
+img {
+  width:200px;
+  height: 200px;
+  padding-right: 5px;
+  margin: 10px;
+}
+
+@media (max-width: 584px){
+
+  .box{
+    position: relative;
+    bottom: 100px;
+  }
+  
+  .box::after,
+  .box::before {
+    width: 300px;
+    height: 50vh;
+    margin: -60% 0;
+    position: relative;
+    bottom: 80%
+
+    }
+
+  .box2{
+    height: 300px;
+    width: 100%;
+    margin: 150% 0;
+  
+  }
+
+  #title{
+    font-size: 24px;
+
+  }
+h1, #username, #password, a, #loginButton{
+  position: relative;
+  left: 40px;
+}
+
+h2{
+  font-size: 20px;
+}  
+
+img{
+  margin: 70px 20;
+  width: 90%;
+  height: 60%;
+}
+
+.formdiv{
+  background-color: #f1fdcd;
+}
+
+}
+
+
+

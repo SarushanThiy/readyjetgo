@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Gloria+Hallelujah&family=Permanent+Marker&family=Raleway:wght@100&family=Work+Sans:wght@100&display=swap");
+
+.mapper {
+    margin: 30px;
+    position: relative;
+    margin-left: 190px;
+}
+
+.backResultsBtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 3px;
+    padding: 10px;
+    color: #fff;
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #053271,
+    0 0 82px #053271,
+    0 0 92px #053271,
+    0 0 102px #053271,
+    0 0 151px #053271;
+    text-transform: uppercase;
+    cursor: pointer;
+    letter-spacing: 1px;
+    position: relative;
+    margin-left: 680px;
+    top:550px;
+    box-shadow: 0 7px #999;
+    font-size: 2.5rem;
+    animation: pulsate 1.5s infinite alternate;  
+    border: 0.2rem solid #fff;
+    border-radius: 2rem;
+    box-shadow: 0 0 .2rem #fff,
+              0 0 .2rem #fff,
+              0 0 2rem #053271,
+              0 0 0.8rem #053271,
+              0 0 2.8rem #053271,
+            inset 0 0 1.3rem #053271;
+    background-color: #010a01;
+}
+
+.locationResultTitle {
+    text-align: center;
+    position: relative;
+    bottom: -30px;
+    font-size: 9rem;
+    letter-spacing: 15px;
+    font-family: 'Russo One';
+    padding: 30px;
+    color: green;
+    animation:blinking 3s infinite;
+}
+@keyframes blinking{
+    0%{   color: #053271;   }
+    47%{   color: #000; }
+    62%{   color: transparent; }
+    97%{   color:transparent; }
+    100%{  color: #000;   }
+    }
+
+.locationResultSolgan {
+    text-align: center;
+    font-size: 4rem;
+    font-family: 'Indie Flower';
+    position: relative;
+    bottom: -30px;
+}

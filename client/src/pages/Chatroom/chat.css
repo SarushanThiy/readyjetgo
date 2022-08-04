@@ -1,0 +1,279 @@
+/* .card-header{
+    background-color: none;
+    color: black;
+}
+
+.card{
+    background-color: none;
+    color: black;
+}
+
+#readyChatTitle {
+    text-align: center;
+    font-size: 8rem;
+    font-family: 'sans-serif';
+    letter-spacing: 15px;
+    position: relative;
+    top: 70px;
+}
+
+#email {
+    width: 25%;
+    position: relative;
+    top: 300px;
+    padding: 25px;
+    left: 300px;
+}
+
+#Name {
+    width: 25%;
+    position: relative;
+    left: 750px;
+    top: 125px;
+    padding: 100px;
+} 
+
+#letsChatButton {
+    margin-left: 700px;
+    border-radius: 3px;
+    padding: 1rem 3.5rem;
+    margin-top: 1rem;
+    border: 1px solid black;
+    text-transform: uppercase;
+    cursor: pointer;
+    letter-spacing: 1px;
+    position: relative;
+    box-shadow: 0 7px #999;
+    top:-77px;
+    color: #fff;
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #053271,
+    0 0 82px #053271,
+    0 0 92px #053271,
+    0 0 102px #053271,
+    0 0 151px #053271;
+    text-transform: uppercase;
+    cursor: pointer;
+    letter-spacing: 1px;
+    position: relative;
+    box-shadow: 0 7px #999;
+    margin-left: 50px;
+    bottom: 200px;
+    right: 182px;
+    font-size: 2.5rem;
+    animation: pulsate 1.5s infinite alternate;  
+    border: 0.2rem solid #fff;
+    border-radius: 2rem;
+    padding: 0.4em;
+    box-shadow: 0 0 .2rem #fff,
+              0 0 .2rem #fff,
+              0 0 2rem #053271,
+              0 0 0.8rem #053271,
+              0 0 2.8rem #053271,
+            inset 0 0 1.3rem #053271;
+    background-color: #010a01;
+
+}
+
+
+#enterRoomContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#joinRoomTag {
+    position: relative;
+    left: 360px;
+    top: 250px;
+    font-size: 3rem;
+}
+
+#chatTag {
+    position: relative;
+    left: 755px;
+    top: 80px;
+    font-size: 3rem;
+} */
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    width: 900px;
+    top: -30px;
+    padding: 150px;
+    position: relative;
+    left: 200px;
+    background-color: #f1fdcd;
+    border-radius: 23px 23px 23px 23px;
+}
+
+textarea{
+    display: block;
+    margin: 20px;
+    resize: none;
+    border: none;
+}
+#email {
+    position: relative;
+    left: 120px;
+    top: 30px;
+    padding: 10px;
+    width: 225px;
+    text-align: center;
+}
+
+#Name {
+    position: relative;
+    left: 120px;
+    top: 30px;
+    padding: 10px;
+    width: 225px;
+    text-align: center;
+
+}
+
+.submit{
+    position: relative;
+    left: 20%;
+
+}
+
+.cardChat{
+    background-color: #f1fdcd;
+    border-radius: 23px 23px 23px 23px;
+}
+
+#sendMessageBtn {
+    margin-left: 700px;
+    border-radius: 3px;
+    padding: 1rem 3.5rem;
+    margin-top: 1rem;
+    border: 1px solid black;
+    text-transform: uppercase;
+    cursor: pointer;
+    letter-spacing: 1px;
+    position: relative;
+    box-shadow: 0 7px #999;
+    top:-77px;
+    color: #fff;
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #053271,
+    0 0 82px #053271,
+    0 0 92px #053271,
+    0 0 102px #053271,
+    0 0 151px #053271;
+    text-transform: uppercase;
+    cursor: pointer;
+    letter-spacing: 1px;
+    position: relative;
+    box-shadow: 0 7px #999;
+    margin-left: 50px;
+    top: 60px;
+    left: -10px;
+    font-size: 2.5rem;
+    animation: pulsate 1.5s infinite alternate;  
+    border: 0.2rem solid #fff;
+    border-radius: 2rem;
+    padding: 0.4em;
+    box-shadow: 0 0 .2rem #fff,
+              0 0 .2rem #fff,
+              0 0 2rem #053271,
+              0 0 0.8rem #053271,
+              0 0 2.8rem #053271,
+            inset 0 0 1.3rem #053271;
+    background-color: #010a01;
+
+}
+
+#readyChatTitle {
+    position: relative;
+    left: 10px;
+    font-family: 'Russo One';
+    font-size: 5rem;
+}
+
+.msg-name, .msg-msg{
+    margin: 10px;
+    color: black;
+    text-align: left;
+    font-size: 16px;
+
+}
+
+#outlined-helperText {
+    position: relative;
+    left: 20px;
+    top: 50px;
+    padding: 5px;
+    width: 225px;
+    text-align: left;
+}
+
+#h1RoomName {
+    font-family: 'Russo One';
+    font-size: 2.5rem;
+    position: relative;
+    bottom: 120px;
+    text-align: center;
+}
+
+#letsChatButton {
+    margin-left: 700px;
+    border-radius: 3px;
+    padding: 1rem 3.5rem;
+    margin-top: 1rem;
+    border: 1px solid black;
+    text-transform: uppercase;
+    cursor: pointer;
+    letter-spacing: 1px;
+    position: relative;
+    box-shadow: 0 7px #999;
+    top:-77px;
+    color: #fff;
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #053271,
+    0 0 82px #053271,
+    0 0 92px #053271,
+    0 0 102px #053271,
+    0 0 151px #053271;
+    text-transform: uppercase;
+    cursor: pointer;
+    letter-spacing: 1px;
+    position: relative;
+    box-shadow: 0 7px #999;
+    margin-left: 50px;
+    top: 60px;
+    left: 115px;
+    font-size: 2.5rem;
+    animation: pulsate 1.5s infinite alternate;  
+    border: 0.2rem solid #fff;
+    border-radius: 2rem;
+    padding: 0.4em;
+    box-shadow: 0 0 .2rem #fff,
+              0 0 .2rem #fff,
+              0 0 2rem #053271,
+              0 0 0.8rem #053271,
+              0 0 2.8rem #053271,
+            inset 0 0 1.3rem #053271;
+    background-color: #010a01;
+
+}
+
+.card-header {
+    background-color: #50b4d8;
+
+}
+
